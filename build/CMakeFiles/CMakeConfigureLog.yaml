@@ -1,0 +1,1845 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      The target system is: Linux -  - arm
+      The host system is: Darwin - 24.0.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc 
+      Build flags: -fdiagnostics-color=always
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/3.30.5/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ 
+      Build flags: -fdiagnostics-color=always
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/3.30.5/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      GNU assembler (GNU Binutils) 2.32
+      Copyright (C) 2019 Free Software Foundation, Inc.
+      This program is free software; you may redistribute it under the terms of
+      the GNU General Public License version 3 or later.
+      This program has absolutely no warranty.
+      This assembler was configured for a target of `arm-miosix-eabi'.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SvlEAQ"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SvlEAQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SvlEAQ'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_ac41b/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_ac41b.dir/build.make CMakeFiles/cmTC_ac41b.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SvlEAQ'
+        Building C object CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc   -fdiagnostics-color=always    -v -o CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc
+        Target: arm-miosix-eabi
+        Configured with: ../gcc-9.2.0/configure --build=aarch64-apple-darwin20 --host= --target=arm-miosix-eabi --with-gmp=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpfr=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpc=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib MAKEINFO=missing --prefix=/opt/arm-miosix-eabi --disable-shared --disable-libssp --disable-nls --disable-libgomp --disable-libstdcxx-pch --disable-libstdcxx-dual-abi --disable-libstdcxx-filesystem-ts --enable-threads=miosix --enable-languages=c,c++ --enable-lto --disable-wchar_t --with-newlib --with-sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi --with-native-system-header-dir=/include
+        Thread model: miosix
+        gcc version 9.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-marm' '-march=armv4t'
+         /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/cc1 -quiet -v -imultilib arm/v4t/nofp -D__USES_INITFINI__ /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -o /var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccZMt2wF.s
+        GNU C17 (GCC) version 9.2.0 (arm-miosix-eabi)
+        	compiled by GNU C version Apple LLVM 15.0.0 (clang-1500.1.0.2.5), GMP version 6.2.1, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/arm-miosix-eabi/arm-miosix-eabi/usr/local/include"
+        ignoring duplicate directory "/opt/arm-miosix-eabi/arm-miosix-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include
+         /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include-fixed
+         /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include
+        End of search list.
+        GNU C17 (GCC) version 9.2.0 (arm-miosix-eabi)
+        	compiled by GNU C version Apple LLVM 15.0.0 (clang-1500.1.0.2.5), GMP version 6.2.1, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d332e5ec6781de0189f62ba6dfe8f625
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-marm' '-march=armv4t'
+         /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/as -march=armv4t -meabi=5 -o CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o /var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccZMt2wF.s
+        COMPILER_PATH=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/
+        LIBRARY_PATH=/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-marm' '-march=armv4t'
+        Linking C executable cmTC_ac41b
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac41b.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc -fdiagnostics-color=always   -v -Wl,-v CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o -o cmTC_ac41b
+        Using built-in specs.
+        COLLECT_GCC=/opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc
+        COLLECT_LTO_WRAPPER=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper
+        Target: arm-miosix-eabi
+        Configured with: ../gcc-9.2.0/configure --build=aarch64-apple-darwin20 --host= --target=arm-miosix-eabi --with-gmp=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpfr=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpc=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib MAKEINFO=missing --prefix=/opt/arm-miosix-eabi --disable-shared --disable-libssp --disable-nls --disable-libgomp --disable-libstdcxx-pch --disable-libstdcxx-dual-abi --disable-libstdcxx-filesystem-ts --enable-threads=miosix --enable-languages=c,c++ --enable-lto --disable-wchar_t --with-newlib --with-sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi --with-native-system-header-dir=/include
+        Thread model: miosix
+        gcc version 9.2.0 (GCC) 
+        COMPILER_PATH=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/
+        LIBRARY_PATH=/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'cmTC_ac41b' '-mcpu=arm7tdmi' '-marm' '-march=armv4t'
+         /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/collect2 -plugin /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/liblto_plugin.so -plugin-opt=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccvXWxYB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi -X -o cmTC_ac41b /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0 -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib -v CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o
+        collect2 version 9.2.0
+        /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld -plugin /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/liblto_plugin.so -plugin-opt=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccvXWxYB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi -X -o cmTC_ac41b /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0 -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib -v CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o
+        GNU ld (GNU Binutils) 2.32
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'cmTC_ac41b' '-mcpu=arm7tdmi' '-marm' '-march=armv4t'
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SvlEAQ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include]
+          add: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include-fixed]
+          add: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include]
+        end of search list found
+        collapse include dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include] ==> [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include]
+        collapse include dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include-fixed] ==> [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include-fixed]
+        collapse include dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/include]
+        implicit include dirs: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include;/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include-fixed;/opt/arm-miosix-eabi/arm-miosix-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SvlEAQ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_ac41b/fast]
+        ignore line: [/usr/local/bin/gmake  -f CMakeFiles/cmTC_ac41b.dir/build.make CMakeFiles/cmTC_ac41b.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SvlEAQ']
+        ignore line: [Building C object CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc   -fdiagnostics-color=always    -v -o CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc]
+        ignore line: [Target: arm-miosix-eabi]
+        ignore line: [Configured with: ../gcc-9.2.0/configure --build=aarch64-apple-darwin20 --host= --target=arm-miosix-eabi --with-gmp=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpfr=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpc=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib MAKEINFO=missing --prefix=/opt/arm-miosix-eabi --disable-shared --disable-libssp --disable-nls --disable-libgomp --disable-libstdcxx-pch --disable-libstdcxx-dual-abi --disable-libstdcxx-filesystem-ts --enable-threads=miosix --enable-languages=c c++ --enable-lto --disable-wchar_t --with-newlib --with-sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi --with-native-system-header-dir=/include]
+        ignore line: [Thread model: miosix]
+        ignore line: [gcc version 9.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-marm' '-march=armv4t']
+        ignore line: [ /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/cc1 -quiet -v -imultilib arm/v4t/nofp -D__USES_INITFINI__ /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -o /var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccZMt2wF.s]
+        ignore line: [GNU C17 (GCC) version 9.2.0 (arm-miosix-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 15.0.0 (clang-1500.1.0.2.5)  GMP version 6.2.1  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/arm-miosix-eabi/arm-miosix-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/arm-miosix-eabi/arm-miosix-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include]
+        ignore line: [ /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include-fixed]
+        ignore line: [ /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GCC) version 9.2.0 (arm-miosix-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 15.0.0 (clang-1500.1.0.2.5)  GMP version 6.2.1  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: d332e5ec6781de0189f62ba6dfe8f625]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-marm' '-march=armv4t']
+        ignore line: [ /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/as -march=armv4t -meabi=5 -o CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o /var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccZMt2wF.s]
+        ignore line: [COMPILER_PATH=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-marm' '-march=armv4t']
+        ignore line: [Linking C executable cmTC_ac41b]
+        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac41b.dir/link.txt --verbose=1]
+        ignore line: [/opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc -fdiagnostics-color=always   -v -Wl -v CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o -o cmTC_ac41b]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper]
+        ignore line: [Target: arm-miosix-eabi]
+        ignore line: [Configured with: ../gcc-9.2.0/configure --build=aarch64-apple-darwin20 --host= --target=arm-miosix-eabi --with-gmp=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpfr=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpc=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib MAKEINFO=missing --prefix=/opt/arm-miosix-eabi --disable-shared --disable-libssp --disable-nls --disable-libgomp --disable-libstdcxx-pch --disable-libstdcxx-dual-abi --disable-libstdcxx-filesystem-ts --enable-threads=miosix --enable-languages=c c++ --enable-lto --disable-wchar_t --with-newlib --with-sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi --with-native-system-header-dir=/include]
+        ignore line: [Thread model: miosix]
+        ignore line: [gcc version 9.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'cmTC_ac41b' '-mcpu=arm7tdmi' '-marm' '-march=armv4t']
+        link line: [ /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/collect2 -plugin /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/liblto_plugin.so -plugin-opt=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccvXWxYB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi -X -o cmTC_ac41b /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0 -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib -v CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o]
+          arg [/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccvXWxYB.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [--sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ac41b] ==> ignore
+          arg [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o] ==> obj [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o]
+          arg [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o] ==> obj [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o]
+          arg [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o] ==> obj [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o]
+          arg [-L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp] ==> dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp]
+          arg [-L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp] ==> dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp]
+          arg [-L/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp] ==> dir [/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp]
+          arg [-L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0] ==> dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0]
+          arg [-L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib] ==> dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib]
+          arg [-L/opt/arm-miosix-eabi/arm-miosix-eabi/lib] ==> dir [/opt/arm-miosix-eabi/arm-miosix-eabi/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [--start-group] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [--end-group] ==> ignore
+          arg [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o] ==> obj [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o]
+          arg [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o] ==> obj [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o]
+        ignore line: [collect2 version 9.2.0]
+        ignore line: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld -plugin /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/liblto_plugin.so -plugin-opt=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccvXWxYB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi -X -o cmTC_ac41b /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0 -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib -v CMakeFiles/cmTC_ac41b.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o]
+        linker tool for 'C': /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld
+        collapse obj [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o]
+        collapse library dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp] ==> [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp]
+        collapse library dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp]
+        collapse library dir [/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp]
+        collapse library dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0] ==> [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0]
+        collapse library dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/lib]
+        collapse library dir [/opt/arm-miosix-eabi/arm-miosix-eabi/lib] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/lib]
+        implicit libs: [gcc;c]
+        implicit objs: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o;/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o;/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o;/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o;/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o]
+        implicit dirs: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp;/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp;/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0;/opt/arm-miosix-eabi/arm-miosix-eabi/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Running the C compiler's linker: "/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld" "-v"
+      ld di GNU (GNU Binutils) 2.32
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Running the C compiler's linker: "/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld" "-V"
+      ld di GNU (GNU Binutils) 2.32
+        Emulazioni supportate:
+         armelf
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Running the C compiler's linker: "/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld" "--version"
+      ld di GNU (GNU Binutils) 2.32
+      Copyright (C) 2019 Free Software Foundation, Inc.
+      Questo programma è software libero; siete liberi di ridistribuirlo secondo i termini
+      della GNU General Public License versione 3 o (a scelta) una versione più recente.
+      Questo programma non ha assolutamente alcuna garanzia.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-FCzhZ7"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-FCzhZ7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-FCzhZ7'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_2bba9/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_2bba9.dir/build.make CMakeFiles/cmTC_2bba9.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-FCzhZ7'
+        Building CXX object CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++   -fdiagnostics-color=always    -v -o CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++
+        Target: arm-miosix-eabi
+        Configured with: ../gcc-9.2.0/configure --build=aarch64-apple-darwin20 --host= --target=arm-miosix-eabi --with-gmp=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpfr=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpc=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib MAKEINFO=missing --prefix=/opt/arm-miosix-eabi --disable-shared --disable-libssp --disable-nls --disable-libgomp --disable-libstdcxx-pch --disable-libstdcxx-dual-abi --disable-libstdcxx-filesystem-ts --enable-threads=miosix --enable-languages=c,c++ --enable-lto --disable-wchar_t --with-newlib --with-sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi --with-native-system-header-dir=/include
+        Thread model: miosix
+        gcc version 9.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mcpu=arm7tdmi' '-marm' '-march=armv4t'
+         /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/cc1plus -quiet -v -imultilib arm/v4t/nofp -D__USES_INITFINI__ /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -o /var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccI8i79y.s
+        GNU C++14 (GCC) version 9.2.0 (arm-miosix-eabi)
+        	compiled by GNU C version Apple LLVM 15.0.0 (clang-1500.1.0.2.5), GMP version 6.2.1, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/arm-miosix-eabi/arm-miosix-eabi/usr/local/include"
+        ignoring duplicate directory "/opt/arm-miosix-eabi/arm-miosix-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include/c++/9.2.0
+         /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include/c++/9.2.0/arm-miosix-eabi/arm/v4t/nofp
+         /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include/c++/9.2.0/backward
+         /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include
+         /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include-fixed
+         /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include
+        End of search list.
+        GNU C++14 (GCC) version 9.2.0 (arm-miosix-eabi)
+        	compiled by GNU C version Apple LLVM 15.0.0 (clang-1500.1.0.2.5), GMP version 6.2.1, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 9a268ab3cddfd7568dee32f27ecffd07
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mcpu=arm7tdmi' '-marm' '-march=armv4t'
+         /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/as -march=armv4t -meabi=5 -o CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o /var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccI8i79y.s
+        COMPILER_PATH=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/
+        LIBRARY_PATH=/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mcpu=arm7tdmi' '-marm' '-march=armv4t'
+        Linking CXX executable cmTC_2bba9
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bba9.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always   -v -Wl,-v CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2bba9
+        Using built-in specs.
+        COLLECT_GCC=/opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++
+        COLLECT_LTO_WRAPPER=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper
+        Target: arm-miosix-eabi
+        Configured with: ../gcc-9.2.0/configure --build=aarch64-apple-darwin20 --host= --target=arm-miosix-eabi --with-gmp=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpfr=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpc=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib MAKEINFO=missing --prefix=/opt/arm-miosix-eabi --disable-shared --disable-libssp --disable-nls --disable-libgomp --disable-libstdcxx-pch --disable-libstdcxx-dual-abi --disable-libstdcxx-filesystem-ts --enable-threads=miosix --enable-languages=c,c++ --enable-lto --disable-wchar_t --with-newlib --with-sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi --with-native-system-header-dir=/include
+        Thread model: miosix
+        gcc version 9.2.0 (GCC) 
+        COMPILER_PATH=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/
+        LIBRARY_PATH=/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'cmTC_2bba9' '-mcpu=arm7tdmi' '-marm' '-march=armv4t'
+         /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/collect2 -plugin /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/liblto_plugin.so -plugin-opt=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccJssXPh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi -X -o cmTC_2bba9 /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0 -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib -v CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm --start-group -lgcc -lc --end-group /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o
+        collect2 version 9.2.0
+        /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld -plugin /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/liblto_plugin.so -plugin-opt=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccJssXPh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi -X -o cmTC_2bba9 /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0 -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib -v CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm --start-group -lgcc -lc --end-group /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o
+        GNU ld (GNU Binutils) 2.32
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'cmTC_2bba9' '-mcpu=arm7tdmi' '-marm' '-march=armv4t'
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-FCzhZ7'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include/c++/9.2.0]
+          add: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include/c++/9.2.0/arm-miosix-eabi/arm/v4t/nofp]
+          add: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include/c++/9.2.0/backward]
+          add: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include]
+          add: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include-fixed]
+          add: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include]
+        end of search list found
+        collapse include dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include/c++/9.2.0] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0]
+        collapse include dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include/c++/9.2.0/arm-miosix-eabi/arm/v4t/nofp] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/arm-miosix-eabi/arm/v4t/nofp]
+        collapse include dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include/c++/9.2.0/backward] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/backward]
+        collapse include dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include] ==> [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include]
+        collapse include dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include-fixed] ==> [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include-fixed]
+        collapse include dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/include]
+        implicit include dirs: [/opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0;/opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/arm-miosix-eabi/arm/v4t/nofp;/opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/backward;/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include;/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include-fixed;/opt/arm-miosix-eabi/arm-miosix-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-FCzhZ7']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_2bba9/fast]
+        ignore line: [/usr/local/bin/gmake  -f CMakeFiles/cmTC_2bba9.dir/build.make CMakeFiles/cmTC_2bba9.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-FCzhZ7']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++   -fdiagnostics-color=always    -v -o CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++]
+        ignore line: [Target: arm-miosix-eabi]
+        ignore line: [Configured with: ../gcc-9.2.0/configure --build=aarch64-apple-darwin20 --host= --target=arm-miosix-eabi --with-gmp=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpfr=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpc=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib MAKEINFO=missing --prefix=/opt/arm-miosix-eabi --disable-shared --disable-libssp --disable-nls --disable-libgomp --disable-libstdcxx-pch --disable-libstdcxx-dual-abi --disable-libstdcxx-filesystem-ts --enable-threads=miosix --enable-languages=c c++ --enable-lto --disable-wchar_t --with-newlib --with-sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi --with-native-system-header-dir=/include]
+        ignore line: [Thread model: miosix]
+        ignore line: [gcc version 9.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mcpu=arm7tdmi' '-marm' '-march=armv4t']
+        ignore line: [ /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/cc1plus -quiet -v -imultilib arm/v4t/nofp -D__USES_INITFINI__ /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -o /var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccI8i79y.s]
+        ignore line: [GNU C++14 (GCC) version 9.2.0 (arm-miosix-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 15.0.0 (clang-1500.1.0.2.5)  GMP version 6.2.1  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/arm-miosix-eabi/arm-miosix-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/arm-miosix-eabi/arm-miosix-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include/c++/9.2.0]
+        ignore line: [ /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include/c++/9.2.0/arm-miosix-eabi/arm/v4t/nofp]
+        ignore line: [ /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include/c++/9.2.0/backward]
+        ignore line: [ /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include]
+        ignore line: [ /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include-fixed]
+        ignore line: [ /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (GCC) version 9.2.0 (arm-miosix-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 15.0.0 (clang-1500.1.0.2.5)  GMP version 6.2.1  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 9a268ab3cddfd7568dee32f27ecffd07]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mcpu=arm7tdmi' '-marm' '-march=armv4t']
+        ignore line: [ /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/as -march=armv4t -meabi=5 -o CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o /var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccI8i79y.s]
+        ignore line: [COMPILER_PATH=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mcpu=arm7tdmi' '-marm' '-march=armv4t']
+        ignore line: [Linking CXX executable cmTC_2bba9]
+        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bba9.dir/link.txt --verbose=1]
+        ignore line: [/opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always   -v -Wl -v CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2bba9]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper]
+        ignore line: [Target: arm-miosix-eabi]
+        ignore line: [Configured with: ../gcc-9.2.0/configure --build=aarch64-apple-darwin20 --host= --target=arm-miosix-eabi --with-gmp=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpfr=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib --with-mpc=/Users/danielecattaneo/Documents/dev/Miosix/miosix-kernel/miosix/_tools/compiler/gcc-9.2.0-mp3.2/lib MAKEINFO=missing --prefix=/opt/arm-miosix-eabi --disable-shared --disable-libssp --disable-nls --disable-libgomp --disable-libstdcxx-pch --disable-libstdcxx-dual-abi --disable-libstdcxx-filesystem-ts --enable-threads=miosix --enable-languages=c c++ --enable-lto --disable-wchar_t --with-newlib --with-sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi --with-native-system-header-dir=/include]
+        ignore line: [Thread model: miosix]
+        ignore line: [gcc version 9.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/:/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/:/opt/arm-miosix-eabi/arm-miosix-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'cmTC_2bba9' '-mcpu=arm7tdmi' '-marm' '-march=armv4t']
+        link line: [ /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/collect2 -plugin /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/liblto_plugin.so -plugin-opt=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccJssXPh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi -X -o cmTC_2bba9 /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0 -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib -v CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm --start-group -lgcc -lc --end-group /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o]
+          arg [/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccJssXPh.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [--sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2bba9] ==> ignore
+          arg [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o] ==> obj [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o]
+          arg [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o] ==> obj [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o]
+          arg [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o] ==> obj [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o]
+          arg [-L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp] ==> dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp]
+          arg [-L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp] ==> dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp]
+          arg [-L/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp] ==> dir [/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp]
+          arg [-L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0] ==> dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0]
+          arg [-L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib] ==> dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib]
+          arg [-L/opt/arm-miosix-eabi/arm-miosix-eabi/lib] ==> dir [/opt/arm-miosix-eabi/arm-miosix-eabi/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [--start-group] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [--end-group] ==> ignore
+          arg [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o] ==> obj [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o]
+          arg [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o] ==> obj [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o]
+        ignore line: [collect2 version 9.2.0]
+        ignore line: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld -plugin /opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/liblto_plugin.so -plugin-opt=/opt/arm-miosix-eabi/libexec/gcc/arm-miosix-eabi/9.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/7l/y9nfr6md1693122bpxyqqx9w0000gn/T//ccJssXPh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/opt/arm-miosix-eabi/arm-miosix-eabi -X -o cmTC_2bba9 /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0 -L/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib -L/opt/arm-miosix-eabi/arm-miosix-eabi/lib -v CMakeFiles/cmTC_2bba9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm --start-group -lgcc -lc --end-group /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o]
+        linker tool for 'CXX': /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld
+        collapse obj [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o]
+        collapse library dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp] ==> [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp]
+        collapse library dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib/arm/v4t/nofp] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp]
+        collapse library dir [/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp]
+        collapse library dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0] ==> [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0]
+        collapse library dir [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/lib] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/lib]
+        collapse library dir [/opt/arm-miosix-eabi/arm-miosix-eabi/lib] ==> [/opt/arm-miosix-eabi/arm-miosix-eabi/lib]
+        implicit libs: [stdc++;m;gcc;c]
+        implicit objs: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crti.o;/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtbegin.o;/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp/crt0.o;/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtend.o;/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp/crtn.o]
+        implicit dirs: [/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/arm/v4t/nofp;/opt/arm-miosix-eabi/arm-miosix-eabi/lib/arm/v4t/nofp;/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0;/opt/arm-miosix-eabi/arm-miosix-eabi/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Running the CXX compiler's linker: "/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld" "-v"
+      ld di GNU (GNU Binutils) 2.32
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Running the CXX compiler's linker: "/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld" "-V"
+      ld di GNU (GNU Binutils) 2.32
+        Emulazioni supportate:
+         armelf
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "libs/boardcore/cmake/sbs.cmake:22 (enable_language)"
+      - "CMakeLists.txt:3 (include)"
+    message: |
+      Running the CXX compiler's linker: "/opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld" "--version"
+      ld di GNU (GNU Binutils) 2.32
+      Copyright (C) 2019 Free Software Foundation, Inc.
+      Questo programma è software libero; siete liberi di ridistribuirlo secondo i termini
+      della GNU General Public License versione 3 o (a scelta) una versione più recente.
+      Questo programma non ha assolutamente alcuna garanzia.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/boardcore/libs/eigen/cmake/FindStandardMathLibrary.cmake:35 (CHECK_CXX_SOURCE_COMPILES)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:100 (find_package)"
+    checks:
+      - "Performing Test standard_math_library_linked_to_automatically"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-MOIrOK"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-MOIrOK"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "standard_math_library_linked_to_automatically"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-MOIrOK'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_ea482/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_ea482.dir/build.make CMakeFiles/cmTC_ea482.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-MOIrOK'
+        Building CXX object CMakeFiles/cmTC_ea482.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -Dstandard_math_library_linked_to_automatically  -fdiagnostics-color=always  -o CMakeFiles/cmTC_ea482.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-MOIrOK/src.cxx
+        Linking CXX executable cmTC_ea482
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea482.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always  CMakeFiles/cmTC_ea482.dir/src.cxx.o -o cmTC_ea482
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-MOIrOK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:152 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_WERROR"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-jlqIVG"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-jlqIVG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-jlqIVG'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_43dc8/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_43dc8.dir/build.make CMakeFiles/cmTC_43dc8.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-jlqIVG'
+        Building CXX object CMakeFiles/cmTC_43dc8.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_WERROR  -fdiagnostics-color=always    -Werror -o CMakeFiles/cmTC_43dc8.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-jlqIVG/src.cxx
+        Linking CXX executable cmTC_43dc8
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43dc8.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always  CMakeFiles/cmTC_43dc8.dir/src.cxx.o -o cmTC_43dc8
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-jlqIVG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:156 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_pedantic"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-LbwMQl"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-LbwMQl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_pedantic"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-LbwMQl'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_57dc8/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_57dc8.dir/build.make CMakeFiles/cmTC_57dc8.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-LbwMQl'
+        Building CXX object CMakeFiles/cmTC_57dc8.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_pedantic  -fdiagnostics-color=always -Werror   -pedantic -o CMakeFiles/cmTC_57dc8.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-LbwMQl/src.cxx
+        Linking CXX executable cmTC_57dc8
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57dc8.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -Werror CMakeFiles/cmTC_57dc8.dir/src.cxx.o -o cmTC_57dc8
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-LbwMQl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:157 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wall"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-snal5b"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-snal5b"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wall"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-snal5b'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_ffdc0/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_ffdc0.dir/build.make CMakeFiles/cmTC_ffdc0.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-snal5b'
+        Building CXX object CMakeFiles/cmTC_ffdc0.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wall  -fdiagnostics-color=always -pedantic -Werror   -Wall -o CMakeFiles/cmTC_ffdc0.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-snal5b/src.cxx
+        Linking CXX executable cmTC_ffdc0
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffdc0.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Werror CMakeFiles/cmTC_ffdc0.dir/src.cxx.o -o cmTC_ffdc0
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-snal5b'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:158 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wextra"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-kCCgqe"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-kCCgqe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wextra"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-kCCgqe'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_7b6cd/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_7b6cd.dir/build.make CMakeFiles/cmTC_7b6cd.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-kCCgqe'
+        Building CXX object CMakeFiles/cmTC_7b6cd.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wextra  -fdiagnostics-color=always -pedantic -Wall -Werror   -Wextra -o CMakeFiles/cmTC_7b6cd.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-kCCgqe/src.cxx
+        Linking CXX executable cmTC_7b6cd
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b6cd.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Werror CMakeFiles/cmTC_7b6cd.dir/src.cxx.o -o cmTC_7b6cd
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-kCCgqe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:161 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wundef"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-g9JdyV"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-g9JdyV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wundef"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-g9JdyV'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_d1c3f/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_d1c3f.dir/build.make CMakeFiles/cmTC_d1c3f.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-g9JdyV'
+        Building CXX object CMakeFiles/cmTC_d1c3f.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wundef  -fdiagnostics-color=always -pedantic -Wall -Wextra -Werror   -Wundef -o CMakeFiles/cmTC_d1c3f.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-g9JdyV/src.cxx
+        Linking CXX executable cmTC_d1c3f
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1c3f.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Werror CMakeFiles/cmTC_d1c3f.dir/src.cxx.o -o cmTC_d1c3f
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-g9JdyV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:162 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wcastalign"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-DqjRKD"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-DqjRKD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wcastalign"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-DqjRKD'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_52e7d/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_52e7d.dir/build.make CMakeFiles/cmTC_52e7d.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-DqjRKD'
+        Building CXX object CMakeFiles/cmTC_52e7d.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wcastalign  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Werror   -Wcast-align -o CMakeFiles/cmTC_52e7d.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-DqjRKD/src.cxx
+        Linking CXX executable cmTC_52e7d
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52e7d.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Werror CMakeFiles/cmTC_52e7d.dir/src.cxx.o -o cmTC_52e7d
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-DqjRKD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:163 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wcharsubscripts"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-cCfEPY"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-cCfEPY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wcharsubscripts"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-cCfEPY'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_260da/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_260da.dir/build.make CMakeFiles/cmTC_260da.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-cCfEPY'
+        Building CXX object CMakeFiles/cmTC_260da.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wcharsubscripts  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror   -Wchar-subscripts -o CMakeFiles/cmTC_260da.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-cCfEPY/src.cxx
+        Linking CXX executable cmTC_260da
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_260da.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror CMakeFiles/cmTC_260da.dir/src.cxx.o -o cmTC_260da
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-cCfEPY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:164 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnonvirtualdtor"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-C7fD3Q"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-C7fD3Q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnonvirtualdtor"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-C7fD3Q'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_ff49e/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_ff49e.dir/build.make CMakeFiles/cmTC_ff49e.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-C7fD3Q'
+        Building CXX object CMakeFiles/cmTC_ff49e.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wnonvirtualdtor  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror   -Wnon-virtual-dtor -o CMakeFiles/cmTC_ff49e.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-C7fD3Q/src.cxx
+        Linking CXX executable cmTC_ff49e
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff49e.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror CMakeFiles/cmTC_ff49e.dir/src.cxx.o -o cmTC_ff49e
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-C7fD3Q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:165 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-d5OPge"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-d5OPge"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wunusedlocaltypedefs"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-d5OPge'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_cf270/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_cf270.dir/build.make CMakeFiles/cmTC_cf270.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-d5OPge'
+        Building CXX object CMakeFiles/cmTC_cf270.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wunusedlocaltypedefs  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror   -Wunused-local-typedefs -o CMakeFiles/cmTC_cf270.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-d5OPge/src.cxx
+        Linking CXX executable cmTC_cf270
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf270.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror CMakeFiles/cmTC_cf270.dir/src.cxx.o -o cmTC_cf270
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-d5OPge'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:166 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wpointerarith"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-U1TqMe"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-U1TqMe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wpointerarith"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-U1TqMe'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_1b2aa/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_1b2aa.dir/build.make CMakeFiles/cmTC_1b2aa.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-U1TqMe'
+        Building CXX object CMakeFiles/cmTC_1b2aa.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wpointerarith  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror   -Wpointer-arith -o CMakeFiles/cmTC_1b2aa.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-U1TqMe/src.cxx
+        Linking CXX executable cmTC_1b2aa
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b2aa.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror CMakeFiles/cmTC_1b2aa.dir/src.cxx.o -o cmTC_1b2aa
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-U1TqMe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:167 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wwritestrings"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-ovbMqK"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-ovbMqK"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wwritestrings"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-ovbMqK'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_83864/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_83864.dir/build.make CMakeFiles/cmTC_83864.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-ovbMqK'
+        Building CXX object CMakeFiles/cmTC_83864.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wwritestrings  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror   -Wwrite-strings -o CMakeFiles/cmTC_83864.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-ovbMqK/src.cxx
+        Linking CXX executable cmTC_83864
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83864.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror CMakeFiles/cmTC_83864.dir/src.cxx.o -o cmTC_83864
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-ovbMqK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:168 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wformatsecurity"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-i88ufb"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-i88ufb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wformatsecurity"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-i88ufb'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_1db71/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_1db71.dir/build.make CMakeFiles/cmTC_1db71.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-i88ufb'
+        Building CXX object CMakeFiles/cmTC_1db71.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wformatsecurity  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror   -Wformat-security -o CMakeFiles/cmTC_1db71.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-i88ufb/src.cxx
+        Linking CXX executable cmTC_1db71
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1db71.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror CMakeFiles/cmTC_1db71.dir/src.cxx.o -o cmTC_1db71
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-i88ufb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:169 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wshorten64to32"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-O9aEze"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-O9aEze"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wshorten64to32"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-O9aEze'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_dce5e/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_dce5e.dir/build.make CMakeFiles/cmTC_dce5e.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-O9aEze'
+        Building CXX object CMakeFiles/cmTC_dce5e.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wshorten64to32  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_dce5e.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-O9aEze/src.cxx
+        \x1b[01m\x1b[Karm-miosix-eabi-g++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command line option '\x1b[01m\x1b[K-Wshorten-64-to-32\x1b[m\x1b[K'
+        gmake[1]: *** [CMakeFiles/cmTC_dce5e.dir/build.make:78: CMakeFiles/cmTC_dce5e.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-O9aEze'
+        gmake: *** [Makefile:127: cmTC_dce5e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:170 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wlogicalop"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2nrQ7o"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2nrQ7o"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wlogicalop"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2nrQ7o'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_9a7ea/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_9a7ea.dir/build.make CMakeFiles/cmTC_9a7ea.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2nrQ7o'
+        Building CXX object CMakeFiles/cmTC_9a7ea.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wlogicalop  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror   -Wlogical-op -o CMakeFiles/cmTC_9a7ea.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2nrQ7o/src.cxx
+        Linking CXX executable cmTC_9a7ea
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a7ea.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror CMakeFiles/cmTC_9a7ea.dir/src.cxx.o -o cmTC_9a7ea
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2nrQ7o'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:171 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wenumconversion"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-y7iqtX"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-y7iqtX"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wenumconversion"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-y7iqtX'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_d9386/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_d9386.dir/build.make CMakeFiles/cmTC_d9386.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-y7iqtX'
+        Building CXX object CMakeFiles/cmTC_d9386.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wenumconversion  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror   -Wenum-conversion -o CMakeFiles/cmTC_d9386.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-y7iqtX/src.cxx
+        \x1b[01m\x1b[Karm-miosix-eabi-g++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command line option '\x1b[01m\x1b[K-Wenum-conversion\x1b[m\x1b[K'; did you mean '\x1b[01m\x1b[K-Wno-conversion\x1b[m\x1b[K'?
+        gmake[1]: *** [CMakeFiles/cmTC_d9386.dir/build.make:78: CMakeFiles/cmTC_d9386.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-y7iqtX'
+        gmake: *** [Makefile:127: cmTC_d9386/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:172 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wcpp11extensions"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-YSo39g"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-YSo39g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wcpp11extensions"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-YSo39g'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_9ff58/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_9ff58.dir/build.make CMakeFiles/cmTC_9ff58.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-YSo39g'
+        Building CXX object CMakeFiles/cmTC_9ff58.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wcpp11extensions  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_9ff58.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-YSo39g/src.cxx
+        \x1b[01m\x1b[Karm-miosix-eabi-g++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command line option '\x1b[01m\x1b[K-Wc++11-extensions\x1b[m\x1b[K'; did you mean '\x1b[01m\x1b[K-fms-extensions\x1b[m\x1b[K'?
+        gmake[1]: *** [CMakeFiles/cmTC_9ff58.dir/build.make:78: CMakeFiles/cmTC_9ff58.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-YSo39g'
+        gmake: *** [Makefile:127: cmTC_9ff58/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:173 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wdoublepromotion"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-32i9tz"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-32i9tz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wdoublepromotion"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-32i9tz'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_dba05/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_dba05.dir/build.make CMakeFiles/cmTC_dba05.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-32i9tz'
+        Building CXX object CMakeFiles/cmTC_dba05.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wdoublepromotion  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror   -Wdouble-promotion -o CMakeFiles/cmTC_dba05.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-32i9tz/src.cxx
+        Linking CXX executable cmTC_dba05
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dba05.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror CMakeFiles/cmTC_dba05.dir/src.cxx.o -o cmTC_dba05
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-32i9tz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:176 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wshadow"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-w6XSzy"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-w6XSzy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wshadow"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-w6XSzy'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_6b859/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_6b859.dir/build.make CMakeFiles/cmTC_6b859.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-w6XSzy'
+        Building CXX object CMakeFiles/cmTC_6b859.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wshadow  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Werror   -Wshadow -o CMakeFiles/cmTC_6b859.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-w6XSzy/src.cxx
+        Linking CXX executable cmTC_6b859
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b859.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Werror CMakeFiles/cmTC_6b859.dir/src.cxx.o -o cmTC_6b859
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-w6XSzy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:178 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnopsabi"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-n2Ghxm"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-n2Ghxm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnopsabi"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-n2Ghxm'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_25b02/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_25b02.dir/build.make CMakeFiles/cmTC_25b02.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-n2Ghxm'
+        Building CXX object CMakeFiles/cmTC_25b02.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wnopsabi  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Werror   -Wno-psabi -o CMakeFiles/cmTC_25b02.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-n2Ghxm/src.cxx
+        Linking CXX executable cmTC_25b02
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25b02.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Werror CMakeFiles/cmTC_25b02.dir/src.cxx.o -o cmTC_25b02
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-n2Ghxm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:179 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnovariadicmacros"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-0l4t4b"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-0l4t4b"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnovariadicmacros"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-0l4t4b'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_56a47/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_56a47.dir/build.make CMakeFiles/cmTC_56a47.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-0l4t4b'
+        Building CXX object CMakeFiles/cmTC_56a47.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wnovariadicmacros  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Werror   -Wno-variadic-macros -o CMakeFiles/cmTC_56a47.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-0l4t4b/src.cxx
+        Linking CXX executable cmTC_56a47
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56a47.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Werror CMakeFiles/cmTC_56a47.dir/src.cxx.o -o cmTC_56a47
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-0l4t4b'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:180 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnolonglong"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-hg1oY8"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-hg1oY8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnolonglong"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-hg1oY8'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_c4eed/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_c4eed.dir/build.make CMakeFiles/cmTC_c4eed.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-hg1oY8'
+        Building CXX object CMakeFiles/cmTC_c4eed.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_Wnolonglong  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror   -Wno-long-long -o CMakeFiles/cmTC_c4eed.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-hg1oY8/src.cxx
+        Linking CXX executable cmTC_c4eed
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4eed.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror CMakeFiles/cmTC_c4eed.dir/src.cxx.o -o cmTC_c4eed
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-hg1oY8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:182 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_fnochecknew"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-4CdYr1"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-4CdYr1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_fnochecknew"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-4CdYr1'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_9bd23/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_9bd23.dir/build.make CMakeFiles/cmTC_9bd23.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-4CdYr1'
+        Building CXX object CMakeFiles/cmTC_9bd23.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_fnochecknew  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror   -fno-check-new -o CMakeFiles/cmTC_9bd23.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-4CdYr1/src.cxx
+        Linking CXX executable cmTC_9bd23
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bd23.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror CMakeFiles/cmTC_9bd23.dir/src.cxx.o -o cmTC_9bd23
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-4CdYr1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:183 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_fnocommon"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2mqgdr"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2mqgdr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_fnocommon"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2mqgdr'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_da3a6/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_da3a6.dir/build.make CMakeFiles/cmTC_da3a6.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2mqgdr'
+        Building CXX object CMakeFiles/cmTC_da3a6.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_fnocommon  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror   -fno-common -o CMakeFiles/cmTC_da3a6.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2mqgdr/src.cxx
+        Linking CXX executable cmTC_da3a6
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da3a6.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror CMakeFiles/cmTC_da3a6.dir/src.cxx.o -o cmTC_da3a6
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2mqgdr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:184 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_fstrictaliasing"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-A99WAj"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-A99WAj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_fstrictaliasing"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-A99WAj'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_9030e/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_9030e.dir/build.make CMakeFiles/cmTC_9030e.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-A99WAj'
+        Building CXX object CMakeFiles/cmTC_9030e.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_fstrictaliasing  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror   -fstrict-aliasing -o CMakeFiles/cmTC_9030e.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-A99WAj/src.cxx
+        Linking CXX executable cmTC_9030e
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9030e.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror CMakeFiles/cmTC_9030e.dir/src.cxx.o -o cmTC_9030e
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-A99WAj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:185 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_wd981"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-tblCZ5"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-tblCZ5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_wd981"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-tblCZ5'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_161bf/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_161bf.dir/build.make CMakeFiles/cmTC_161bf.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-tblCZ5'
+        Building CXX object CMakeFiles/cmTC_161bf.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_wd981  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd981 -o CMakeFiles/cmTC_161bf.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-tblCZ5/src.cxx
+        \x1b[01m\x1b[Karm-miosix-eabi-g++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command line option '\x1b[01m\x1b[K-wd981\x1b[m\x1b[K'
+        gmake[1]: *** [CMakeFiles/cmTC_161bf.dir/build.make:78: CMakeFiles/cmTC_161bf.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-tblCZ5'
+        gmake: *** [Makefile:127: cmTC_161bf/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:87 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:186 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_wd2304"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-v8LuJi"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-v8LuJi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_wd2304"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-v8LuJi'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_10bce/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_10bce.dir/build.make CMakeFiles/cmTC_10bce.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-v8LuJi'
+        Building CXX object CMakeFiles/cmTC_10bce.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_wd2304  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd2304 -o CMakeFiles/cmTC_10bce.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-v8LuJi/src.cxx
+        \x1b[01m\x1b[Karm-miosix-eabi-g++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command line option '\x1b[01m\x1b[K-wd2304\x1b[m\x1b[K'
+        gmake[1]: *** [CMakeFiles/cmTC_10bce.dir/build.make:78: CMakeFiles/cmTC_10bce.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-v8LuJi'
+        gmake: *** [Makefile:127: cmTC_10bce/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/eigen/CMakeLists.txt:308 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_OPENMP"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-xcQ5W3"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-xcQ5W3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_OPENMP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-xcQ5W3'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_8b7a0/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_8b7a0.dir/build.make CMakeFiles/cmTC_8b7a0.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-xcQ5W3'
+        Building CXX object CMakeFiles/cmTC_8b7a0.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DCOMPILER_SUPPORT_OPENMP  -fdiagnostics-color=always -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing    -fopenmp -o CMakeFiles/cmTC_8b7a0.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-xcQ5W3/src.cxx
+        \x1b[01m\x1b[Karm-miosix-eabi-g++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command line option '\x1b[01m\x1b[K-pthread\x1b[m\x1b[K'
+        gmake[1]: *** [CMakeFiles/cmTC_8b7a0.dir/build.make:78: CMakeFiles/cmTC_8b7a0.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-xcQ5W3'
+        gmake: *** [Makefile:127: cmTC_8b7a0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "libs/boardcore/libs/eigen/cmake/FindPASTIX.cmake:143 (find_dependency)"
+      - "libs/boardcore/libs/eigen/bench/spbench/CMakeLists.txt:48 (find_package)"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-Jk7pra"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-Jk7pra"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-Jk7pra'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_303ef/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_303ef.dir/build.make CMakeFiles/cmTC_303ef.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-Jk7pra'
+        Building C object CMakeFiles/cmTC_303ef.dir/src.c.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always  -o CMakeFiles/cmTC_303ef.dir/src.c.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-Jk7pra/src.c
+        Linking C executable cmTC_303ef
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_303ef.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc -fdiagnostics-color=always  CMakeFiles/cmTC_303ef.dir/src.c.o -o cmTC_303ef
+        /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld: CMakeFiles/cmTC_303ef.dir/src.c.o: in function `main':
+        src.c:(.text+0x40): undefined reference to `pthread_create'
+        /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld: src.c:(.text+0x4c): undefined reference to `pthread_detach'
+        /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_cancel'
+        /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld: src.c:(.text+0x68): undefined reference to `pthread_join'
+        /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld: src.c:(.text+0x78): undefined reference to `pthread_atfork'
+        /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld: src.c:(.text+0x80): undefined reference to `pthread_exit'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_303ef.dir/build.make:99: cmTC_303ef] Error 1
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-Jk7pra'
+        gmake: *** [Makefile:127: cmTC_303ef/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "libs/boardcore/libs/eigen/cmake/FindPASTIX.cmake:143 (find_dependency)"
+      - "libs/boardcore/libs/eigen/bench/spbench/CMakeLists.txt:48 (find_package)"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-wPfAgp"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-wPfAgp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-wPfAgp'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_af3f4/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_af3f4.dir/build.make CMakeFiles/cmTC_af3f4.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-wPfAgp'
+        Building C object CMakeFiles/cmTC_af3f4.dir/CheckFunctionExists.c.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc   -fdiagnostics-color=always -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_af3f4.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-wPfAgp/CheckFunctionExists.c
+        Linking C executable cmTC_af3f4
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af3f4.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc -fdiagnostics-color=always -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_af3f4.dir/CheckFunctionExists.c.o -o cmTC_af3f4  -lpthreads
+        /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld: impossibile trovare -lpthreads
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_af3f4.dir/build.make:99: cmTC_af3f4] Error 1
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-wPfAgp'
+        gmake: *** [Makefile:127: cmTC_af3f4/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "libs/boardcore/libs/eigen/cmake/FindPASTIX.cmake:143 (find_dependency)"
+      - "libs/boardcore/libs/eigen/bench/spbench/CMakeLists.txt:48 (find_package)"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SMQpWA"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SMQpWA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SMQpWA'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_0b990/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_0b990.dir/build.make CMakeFiles/cmTC_0b990.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SMQpWA'
+        Building C object CMakeFiles/cmTC_0b990.dir/CheckFunctionExists.c.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc   -fdiagnostics-color=always -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_0b990.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SMQpWA/CheckFunctionExists.c
+        Linking C executable cmTC_0b990
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b990.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc -fdiagnostics-color=always -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_0b990.dir/CheckFunctionExists.c.o -o cmTC_0b990  -lpthread
+        /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/../../../../arm-miosix-eabi/bin/ld: impossibile trovare -lpthread
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_0b990.dir/build.make:99: cmTC_0b990] Error 1
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-SMQpWA'
+        gmake: *** [Makefile:127: cmTC_0b990/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:136 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:179 (_threads_check_flag_pthread)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "libs/boardcore/libs/eigen/cmake/FindPASTIX.cmake:143 (find_dependency)"
+      - "libs/boardcore/libs/eigen/bench/spbench/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-P6imBR"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-P6imBR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/eigen/cmake"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-P6imBR'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_520b2/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_520b2.dir/build.make CMakeFiles/cmTC_520b2.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-P6imBR'
+        Building C object CMakeFiles/cmTC_520b2.dir/CheckForPthreads.c.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc   -fdiagnostics-color=always  -o CMakeFiles/cmTC_520b2.dir/CheckForPthreads.c.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-P6imBR/CheckForPthreads.c
+        Linking C executable cmTC_520b2
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_520b2.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc -fdiagnostics-color=always  CMakeFiles/cmTC_520b2.dir/CheckForPthreads.c.o -o cmTC_520b2  -pthread
+        \x1b[01m\x1b[Karm-miosix-eabi-gcc:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command line option '\x1b[01m\x1b[K-pthread\x1b[m\x1b[K'
+        gmake[1]: *** [CMakeFiles/cmTC_520b2.dir/build.make:99: cmTC_520b2] Error 1
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-P6imBR'
+        gmake: *** [Makefile:127: cmTC_520b2/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/fmt/support/cmake/cxx14.cmake:39 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/fmt/CMakeLists.txt:122 (include)"
+    checks:
+      - "Performing Test has_std_11_flag"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-zxkaGf"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-zxkaGf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/cmake;/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/fmt/support/cmake"
+    buildResult:
+      variable: "has_std_11_flag"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-zxkaGf'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_69e3b/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_69e3b.dir/build.make CMakeFiles/cmTC_69e3b.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-zxkaGf'
+        Building CXX object CMakeFiles/cmTC_69e3b.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -Dhas_std_11_flag  -fdiagnostics-color=always    -std=c++11 -o CMakeFiles/cmTC_69e3b.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-zxkaGf/src.cxx
+        Linking CXX executable cmTC_69e3b
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69e3b.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always  CMakeFiles/cmTC_69e3b.dir/src.cxx.o -o cmTC_69e3b
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-zxkaGf'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "libs/boardcore/libs/fmt/support/cmake/cxx14.cmake:40 (check_cxx_compiler_flag)"
+      - "libs/boardcore/libs/fmt/CMakeLists.txt:122 (include)"
+    checks:
+      - "Performing Test has_std_0x_flag"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-DfgRqH"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-DfgRqH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/cmake;/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/fmt/support/cmake"
+    buildResult:
+      variable: "has_std_0x_flag"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-DfgRqH'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_a5878/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_a5878.dir/build.make CMakeFiles/cmTC_a5878.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-DfgRqH'
+        Building CXX object CMakeFiles/cmTC_a5878.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -Dhas_std_0x_flag  -fdiagnostics-color=always    -std=c++0x -o CMakeFiles/cmTC_a5878.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-DfgRqH/src.cxx
+        Linking CXX executable cmTC_a5878
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5878.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always  CMakeFiles/cmTC_a5878.dir/src.cxx.o -o cmTC_a5878
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-DfgRqH'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/boardcore/libs/fmt/support/cmake/cxx14.cmake:52 (check_cxx_source_compiles)"
+      - "libs/boardcore/libs/fmt/CMakeLists.txt:122 (include)"
+    checks:
+      - "Performing Test SUPPORTS_USER_DEFINED_LITERALS"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-BTjRlp"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-BTjRlp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/cmake;/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/fmt/support/cmake"
+    buildResult:
+      variable: "SUPPORTS_USER_DEFINED_LITERALS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-BTjRlp'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_9d5b3/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_9d5b3.dir/build.make CMakeFiles/cmTC_9d5b3.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-BTjRlp'
+        Building CXX object CMakeFiles/cmTC_9d5b3.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DSUPPORTS_USER_DEFINED_LITERALS  -fdiagnostics-color=always -std=c++11 -o CMakeFiles/cmTC_9d5b3.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-BTjRlp/src.cxx
+        Linking CXX executable cmTC_9d5b3
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d5b3.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -std=c++11 CMakeFiles/cmTC_9d5b3.dir/src.cxx.o -o cmTC_9d5b3
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-BTjRlp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/boardcore/libs/fmt/support/cmake/cxx14.cmake:62 (check_cxx_source_compiles)"
+      - "libs/boardcore/libs/fmt/CMakeLists.txt:122 (include)"
+    checks:
+      - "Performing Test FMT_HAS_VARIANT"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-0GdrY3"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-0GdrY3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/cmake;/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/fmt/support/cmake"
+    buildResult:
+      variable: "FMT_HAS_VARIANT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-0GdrY3'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_f5b65/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_f5b65.dir/build.make CMakeFiles/cmTC_f5b65.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-0GdrY3'
+        Building CXX object CMakeFiles/cmTC_f5b65.dir/src.cxx.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -DFMT_HAS_VARIANT  -fdiagnostics-color=always -std=c++1z -o CMakeFiles/cmTC_f5b65.dir/src.cxx.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-0GdrY3/src.cxx
+        Linking CXX executable cmTC_f5b65
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5b65.dir/link.txt --verbose=1
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-g++ -fdiagnostics-color=always -std=c++1z CMakeFiles/cmTC_f5b65.dir/src.cxx.o -o cmTC_f5b65
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-0GdrY3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "libs/boardcore/libs/fmt/CMakeLists.txt:216 (check_symbol_exists)"
+    checks:
+      - "Looking for strtod_l"
+    directories:
+      source: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2GWyEK"
+      binary: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2GWyEK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fdiagnostics-color=always"
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/cmake;/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/fmt/support/cmake"
+    buildResult:
+      variable: "HAVE_STRTOD_L"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2GWyEK'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_682fe/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_682fe.dir/build.make CMakeFiles/cmTC_682fe.dir/build
+        gmake[1]: Entering directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2GWyEK'
+        Building C object CMakeFiles/cmTC_682fe.dir/CheckSymbolExists.c.o
+        /opt/arm-miosix-eabi/bin/arm-miosix-eabi-gcc   -fdiagnostics-color=always  -o CMakeFiles/cmTC_682fe.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2GWyEK/CheckSymbolExists.c
+        \x1b[01m\x1b[K/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2GWyEK/CheckSymbolExists.c:\x1b[m\x1b[K In function '\x1b[01m\x1b[Kmain\x1b[m\x1b[K':
+        \x1b[01m\x1b[K/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2GWyEK/CheckSymbolExists.c:8:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kstrtod_l\x1b[m\x1b[K' undeclared (first use in this function); did you mean '\x1b[01m\x1b[Kstrtoull\x1b[m\x1b[K'?
+            8 |   return ((int*)(&\x1b[01;31m\x1b[Kstrtod_l\x1b[m\x1b[K))[argc];
+              |                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K
+              |                   \x1b[32m\x1b[Kstrtoull\x1b[m\x1b[K
+        \x1b[01m\x1b[K/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2GWyEK/CheckSymbolExists.c:8:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Keach undeclared identifier is reported only once for each function it appears in
+        gmake[1]: *** [CMakeFiles/cmTC_682fe.dir/build.make:78: CMakeFiles/cmTC_682fe.dir/CheckSymbolExists.c.o] Error 1
+        gmake[1]: Leaving directory '/Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/build/CMakeFiles/CMakeScratch/TryCompile-2GWyEK'
+        gmake: *** [Makefile:127: cmTC_682fe/fast] Error 2
+        
+      exitCode: 2
+...

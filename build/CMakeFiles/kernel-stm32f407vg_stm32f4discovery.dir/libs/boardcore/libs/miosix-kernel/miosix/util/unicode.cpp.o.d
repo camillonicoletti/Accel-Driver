@@ -1,0 +1,20 @@
+CMakeFiles/kernel-stm32f407vg_stm32f4discovery.dir/libs/boardcore/libs/miosix-kernel/miosix/util/unicode.cpp.o: \
+ /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/miosix-kernel/miosix/util/unicode.cpp \
+ /Users/admin/Desktop/SKYWARD/vscode-skyword-project/accel-driver-project/libs/boardcore/libs/miosix-kernel/miosix/util/unicode.h \
+ /opt/arm-miosix-eabi/lib/gcc/arm-miosix-eabi/9.2.0/include/stdint.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/stdint.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/machine/_default_types.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/sys/features.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/_newlib_version.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/sys/_intsup.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/sys/_stdint.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/utility \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/arm-miosix-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/arm-miosix-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/arm-miosix-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/bits/stl_relops.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/bits/stl_pair.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/bits/move.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/bits/concept_check.h \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/type_traits \
+ /opt/arm-miosix-eabi/arm-miosix-eabi/include/c++/9.2.0/initializer_list

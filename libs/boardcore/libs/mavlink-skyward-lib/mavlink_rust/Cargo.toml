@@ -1,0 +1,32 @@
+[package]
+name = "skyward_mavlink"
+version = "0.1.0"
+authors = ["Federico Lolli <federico.lolli@skywarder.eu>"]
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+num-traits = { version = "0.2.18", default-features = false }
+num-derive = "0.4.2"
+bitflags = "2.4.2"
+serde = { version = "1.0.197", optional = true }
+serde_arrays = { version = "0.1.0", optional = true }
+
+[dependencies.mavlink-core]
+git = "https://github.com/mavlink/rust-mavlink.git"
+rev = "8d61f75ac4a5bf04cd9401d9073244118117db5f"
+
+[build-dependencies.mavlink-bindgen]
+git = "https://github.com/mavlink/rust-mavlink.git"
+rev = "8d61f75ac4a5bf04cd9401d9073244118117db5f"
+
+[features]
+default = ["lyra"]
+lyra = []
+gemini = []
+pyxis = []
+lynx = []
+hermes = []
+r2a = []
+test = []
+serde = ["dep:serde", "dep:serde_arrays"]

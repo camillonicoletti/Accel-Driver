@@ -1,0 +1,2 @@
+arm-miosix-eabi-ar qc libfmt.a CMakeFiles/fmt.dir/src/format.cc.o CMakeFiles/fmt.dir/src/os.cc.o
+/opt/arm-miosix-eabi/bin/arm-miosix-eabi-ranlib libfmt.a
