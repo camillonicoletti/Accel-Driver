@@ -1,23 +1,30 @@
 # LIS3DSH Driver Project
+**Developing a Driver for 3-Axis Accelerometer Integration**
 
-The project is to develop a driver for the LIS3DSH accelerometer sensor.
+This project aims to develop a driver for the LIS3DSH accelerometer sensor.
+
+This driver facilitates the use of the LIS3DSH accelerometer in embedded systems, enabling precise motion tracking and orientation detection for a wide range of applications.
+
+The LIS3DSH is a 3-axis accelerometer that measures acceleration in three dimensions and communicates with a host microcontroller via the SPI protocol. The driver will integrate with the boardcore framework, implementing its standard Sensor interface, to ensure compatibility and reusability.
 
 The datasheet of the sensor can be found on the STMicroelectronics website: [LIS3DSH Datasheet](https://www.st.com/resource/en/datasheet/lis3dsh.pdf).
+ 
+## Project Goals
+
+The objective is to create a robust and efficient driver capable of:
+	1.	Reading acceleration values from the LIS3DSH sensor.
+	2.	Implementing the Sensor interface defined in the boardcore library.
+	3.	Utilizing the SPI peripheral for communication between the microcontroller and the sensor.
 
 
-## Project Description
+## Key Components
 
-The LIS3DSH is a 3-axis accelerometer sensor that can be used to measure acceleration in three dimensions. The sensor communicates with the host microcontroller using the SPI protocol.  
-The goal of the project is to develop a driver for the LIS3DSH sensor that can be used to read the acceleration values from the sensor. 
-The driver should implement the `Sensor` interface defined in the `boardcore` library for the sensor to be compatible with the boardcore framework.
-The driver will use the SPI peripheral of the microcontroller to communicate with the sensor.
-
-The boardcore library provides the following classes and interfaces that can be used to develop the driver:
-- `Sensor`: The `Sensor` interface defines the methods that a sensor driver should implement. It can be found in the `Sensor.h` file of the `boardcore` library.
-- `AccelerometerData`: The `AccelerometerData` class is a data structure that holds the acceleration values in three dimensions. It can be found in the `SensorData.h` file of the `boardcore` library.
-- `SPIBus`: The `SPIBus` class provides an abstraction for the SPI bus. It can be found in the `SPIBus.h` file of the `boardcore` library.
-- `SPITransaction`: The `SPITransaction` class provides an abstraction for an SPI transaction. It can be found in the `SPITransaction.h` file of the `boardcore` library.
-- `GpioPin`: The `GpioPin` class provides an abstraction for a GPIO pin. It can be found in the `gpio.h` file of the `miosix` kernel.
+The following classes and interfaces from the boardcore library will be used to develop the driver:
+- `Sensor`: Defines the methods that any sensor driver should implement (found in Sensor.h).
+- `AccelerometerData`: A data structure for storing acceleration values in three dimensions (found in SensorData.h).
+- `SPIBus`: Provides an abstraction for SPI bus communication (found in SPIBus.h).
+- `SPITransaction`: Abstracts an individual SPI transaction (found in SPITransaction.h).
+- `GpioPin`: Abstracts GPIO pin handling (available in the gpio.h file of the miosix kernel).
 
 
 ## Repository Structure
@@ -30,4 +37,26 @@ The repository is structured as follows:
 | `libs/boardcore/` | The boardcore library as a git submodule |
 | `src/`            | The source code of the driver            |
 | `CMakeLists.txt`  | The CMake configuration file             |
+
+
+
+
+## Setup and Configuration
+
+1. Clone the repository
+2. Initialize the boardcore submodule
+    ```bash
+    git submodule update --init --recursive
+    ```
+3. Build the project with SBS
+    ```bash
+    ./sbs -b main
+    ```
+4. Connect the development board and run the project
+    ```bash
+    ./sbs -f main
+    ```
+
+Once the project is built and flashed to the development board, you can use the serial monitor to view the output of the project. On linux, you can use `minicom` or `screen` to connect to the serial port. On Windows, use the `Serial Monitor` extension in Visual Studio Code. Ensure the baud rate (default: `19200`) matches the configuration in your microcontroller's firmware to establish a successful serial connection.
+
 
