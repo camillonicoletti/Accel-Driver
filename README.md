@@ -12,9 +12,9 @@ The datasheet of the sensor can be found on the STMicroelectronics website: [LIS
 ## Project Goals
 
 The objective is to create a robust and efficient driver capable of:
-	1.	Reading acceleration values from the LIS3DSH sensor.
-	2.	Implementing the Sensor interface defined in the boardcore library.
-	3.	Utilizing the SPI peripheral for communication between the microcontroller and the sensor.
+- Reading acceleration values from the LIS3DSH sensor.
+- Implementing the Sensor interface defined in the boardcore library.
+- Utilizing the SPI peripheral for communication between the microcontroller and the sensor.
 
 
 ## Key Components
@@ -58,5 +58,6 @@ The repository is structured as follows:
     ```
 
 Once the project is built and flashed to the development board, you can use the serial monitor to view the output of the project. On linux, you can use `minicom` or `screen` to connect to the serial port. On Windows, use the `Serial Monitor` extension in Visual Studio Code. Ensure the baud rate (default: `19200`) matches the configuration in your microcontroller's firmware to establish a successful serial connection.
+
 
 
